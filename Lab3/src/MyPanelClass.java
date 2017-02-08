@@ -27,7 +27,7 @@ public class MyPanelClass extends JPanel {
 		g.setColor(Color.LIGHT_GRAY);
 		g.fillRect(x1, y1, width + 1, height + 1);
 
-		/* //Draw a border
+	/*  //Draw a border
         g.setColor(Color.RED);
         g.drawRect(x1, y1, width, height);
 
@@ -45,14 +45,14 @@ public class MyPanelClass extends JPanel {
 
         //Drawing Line 2
         g.setColor(Color.BLACK);
-        g.drawLine(x1, y2, x2, y1); */
+        g.drawLine(x1, y2, x2, y1);      */
 
 		//Draw Oval 
-		g.setColor(Color.RED);
-		g.fillOval((getWidth()-55)/2, (getHeight()-55)/2, 55, 55);
+		//g.setColor(Color.RED);
+		//g.fillOval((getWidth()-55)/2, (getHeight()-55)/2, 55, 55);
 
 		//Drawing Polygon 1
-		/*  Polygon p = new Polygon();
+	/*    Polygon p = new Polygon();
           p.addPoint(x1 + 5, y1 + 25);
           p.addPoint(x1 + 20, y1 + 10);
           p.addPoint(x1 + 35, y1 + 25);
@@ -61,10 +61,10 @@ public class MyPanelClass extends JPanel {
           p.addPoint(x1 + 15, y1 + 45);
           p.addPoint(x1 + 15, y1 + 25);
           g.setColor(Color.YELLOW);
-          g.fillPolygon(p);  */
+          g.fillPolygon(p);               */
 
 		//Drawing Polygon 2
-		/* Polygon p2 = new Polygon();
+	/*    Polygon p2 = new Polygon();
           p2.addPoint(x1 + 25, y1 + 73);
           p2.addPoint(x1 + 41, y1 + 73);
           p2.addPoint(x1 + 47, y1 + 58);
@@ -76,11 +76,11 @@ public class MyPanelClass extends JPanel {
           p2.addPoint(x1 + 34, y1 + 98);
           p2.addPoint(x1 + 38, y1 + 83);
           g.setColor(Color.WHITE);
-          g.drawPolygon(p2); */
+          g.drawPolygon(p2);               */
 
 		//Drawing Puerto Rican flag
 
-		Polygon flagRedLines = new Polygon();          //Red Lines 
+		Polygon flagRedLines = new Polygon();              //Red Lines 
 		flagRedLines.addPoint(x1 + 10, y1 + 10);
 		flagRedLines.addPoint(x1 + 210, y1 + 10);
 		flagRedLines.addPoint(x1 + 210, y1 + 150);
@@ -89,7 +89,7 @@ public class MyPanelClass extends JPanel {
 		g.fillPolygon(flagRedLines);
 
 
-		Polygon flagRedLinesBorder = new Polygon();     //Red Lines Border
+		Polygon flagRedLinesBorder = new Polygon();       //Red Lines Border
 		flagRedLinesBorder.addPoint(x1 + 10, y1 + 10);
 		flagRedLinesBorder.addPoint(x1 + 210, y1 + 10);
 		flagRedLinesBorder.addPoint(x1 + 210, y1 + 150);
@@ -122,7 +122,7 @@ public class MyPanelClass extends JPanel {
 		g.setColor(Color.WHITE);
 		g.fillPolygon(flagWhiteLine2);
 
-		Polygon flagWhiteLineBorder2 = new Polygon();    //Lower White Line Border
+		Polygon flagWhiteLineBorder2 = new Polygon();   //Lower White Line Border
 		flagWhiteLineBorder2.addPoint(x1 + 10, y1 + 95);
 		flagWhiteLineBorder2.addPoint(x1 + 210, y1 + 95);
 		flagWhiteLineBorder2.addPoint(x1 + 210, y1 + 125);
@@ -159,7 +159,7 @@ public class MyPanelClass extends JPanel {
 		g.fillPolygon(p2);
 
 
-		Polygon p2Border = new Polygon();           //Single White Star Border   
+		Polygon p2Border = new Polygon();             //Single White Star Border   
 		p2Border.addPoint(x1 + 25, y1 + 73);
 		p2Border.addPoint(x1 + 41, y1 + 73);
 		p2Border.addPoint(x1 + 47, y1 + 58);
